@@ -9,7 +9,7 @@ on:
     - main
 
 jobs:
-  ct_pipeline:
+  train_pipeline:
       runs-on: ubuntu-latest
 
       steps:
