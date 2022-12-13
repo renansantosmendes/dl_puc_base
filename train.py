@@ -67,4 +67,4 @@ with mlflow.start_run(run_name='imdb_review'):
             y_train,
             validation_data=(x_test, y_test),
             epochs=1,
-            batch_size=512)
+            batch_size=256)
