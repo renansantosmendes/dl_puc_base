@@ -13,6 +13,7 @@ from tensorflow.keras.preprocessing import sequence
 from tensorflow.keras.datasets import imdb
 from tensorflow.keras.layers import Embedding, LSTM, Dense, Dropout
 from tensorflow.keras import Sequential
+from tensorflow.keras.preprocessing.sequence import pad_sequences
 
 def reset_seeds():
    np.random.seed(123)
